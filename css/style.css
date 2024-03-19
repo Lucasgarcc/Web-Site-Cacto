@@ -208,6 +208,7 @@ img {
 /* Mostrar Menu */
 
 .show-menu, .menu li{
+  display: block;
   right: 0;
 }
 
