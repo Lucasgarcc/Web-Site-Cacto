@@ -117,7 +117,6 @@ img {
   color: var(--branco-cor);
   font-size: var(--font-bold);
   font-weight: 500;
-  overflow: hidden;
 }
 
 .nav-logo,            /* BUG */
@@ -211,6 +210,7 @@ img {
     right: -100%;
     width: 80%;
     height: 100%;
+    overflow: hidden;
   }
   .nav-logo,            /* BUG */
   .nav-fechar,
@@ -226,6 +226,7 @@ img {
 
 .show-menu, .menu{
   right: 0;
+  overflow: visible;
 }
 
 /* Adiciona o blur header*/
