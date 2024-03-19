@@ -110,7 +110,7 @@ img {
 }
 
 
-.menu li, a {
+.menu a {
   margin: .5rem;
   list-style: none;
   text-decoration: none;
@@ -184,10 +184,6 @@ img {
     transition: color 4s;
   }
   
-  .menu li{
-    display: block;
-  }
-  
 
   .menu a:hover {
     color: var(--primeiro-cor);
@@ -210,9 +206,7 @@ img {
 .show-menu, .menu {
   right: 0;
 }
-.menu li{
-  display: block;
-}
+
 /* Adiciona o blur header*/
 
 .blur-header::after {
