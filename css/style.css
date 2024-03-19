@@ -183,6 +183,11 @@ img {
     text-transform: uppercase;
     transition: color 4s;
   }
+  
+  .menu li{
+    display: none;
+  }
+  
 
   .menu a:hover {
     color: var(--primeiro-cor);
