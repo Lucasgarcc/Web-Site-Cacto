@@ -204,7 +204,7 @@ img {
 
 /* Mostrar Menu */
 
-.show-menu, .menu li {
+.show-menu, .menu{
   right: 0;
 }
 
