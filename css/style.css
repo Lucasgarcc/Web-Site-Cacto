@@ -204,12 +204,10 @@ img {
 
 /* Mostrar Menu */
 
-.show-menu, .menu {
+.show-menu, .menu li {
   right: 0;
 }
-.menu li{
-  display: block;
-}
+
 /* Adiciona o blur header*/
 
 .blur-header::after {
