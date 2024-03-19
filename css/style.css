@@ -156,7 +156,7 @@ img {
   .nav-container {
     padding: 0 2rem ; 
   }
-  .nav-menu, .menu, .menu + li{
+  .nav-menu, .menu{
     margin: 0 auto;
     padding: 6rem 3rem 0;
     display: inline-block;
@@ -197,6 +197,26 @@ img {
     top: 1.15rem;
     right: 1.5rem;
     font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 600px){
+  
+  .nav-menu, .menu + li{
+    margin: 0 auto;
+    padding: 6rem 3rem 0;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100%;
+  }
+  .nav-logo,            /* BUG */
+  .nav-fechar,
+  .nav-toggle,
+  .nav-actions {
+    font-size: 1.5rem;
   }
 }
 
@@ -248,7 +268,7 @@ img {
 }
 
 .inicio-img {
-  max-width: 600px;
+  min-width: 80%;
   filter: drop-shadow(var(--shadow-img));
   justify-self: center;
 }
@@ -293,10 +313,10 @@ img {
 
 @media (max-width: 1150px) {
   .inicio-titulo {
-    width: 12ch;
+    font-size: var(--h1-font-size);
   }
   .inicio-descricao{
-    max-width: 45ch;
+    max-width: 40ch;
   }
   .grid {
     display: grid;
@@ -433,8 +453,29 @@ img {
     max-width: 800px;
   }
   
+  
 }
 
+@media (max-width: 600px) {
+  .novo-section-titulo {
+    font-size: var(--h1-font-size);
+  }
+  .novo-descricao{
+  padding: 0;
+  max-width: 37ch;
+  margin-bottom: 3rem;
+  font-variant: var(--font-semi-bold);
+  font-size: 1rem;
+  line-height: 1.750rem;
+  color: var(--texto-cor);
+  }
+  .novo-content {
+    margin: auto 0 auto 0;
+    padding: 0 1rem;
+    row-gap: 6rem;
+    max-width: 800px;
+  }
+}
 /* pagina loja */
 
 .loja-container {
@@ -514,7 +555,11 @@ img {
   .loja-card {
     min-width: 80%;
   }
-
+}
+@media (max-width: 600px){
+  .section-titulo{
+    font-size: var(--h2-font-size);
+  }
 }
 
 /* Are de cuidados */
