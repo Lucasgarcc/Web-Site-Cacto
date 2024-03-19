@@ -156,7 +156,7 @@ img {
   .nav-container {
     padding: 0 2rem ; 
   }
-  .nav-menu, .menu{
+  .nav-menu, .menu, .menu li{
     margin: 0 auto;
     padding: 6rem 3rem 0;
     display: inline-block;
