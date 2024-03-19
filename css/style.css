@@ -110,13 +110,14 @@ img {
 }
 
 
-.menu a {
+.menu li, a {
   margin: .5rem;
   list-style: none;
   text-decoration: none;
   color: var(--branco-cor);
   font-size: var(--font-bold);
   font-weight: 500;
+  overflow: hidden;
 }
 
 .nav-logo,            /* BUG */
@@ -206,7 +207,9 @@ img {
 .show-menu, .menu {
   right: 0;
 }
-
+.menu li{
+  display: block;
+}
 /* Adiciona o blur header*/
 
 .blur-header::after {
